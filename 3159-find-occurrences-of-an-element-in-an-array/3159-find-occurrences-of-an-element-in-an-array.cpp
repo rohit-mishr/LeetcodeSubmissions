@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> occurrencesOfElement(vector<int>& nums, vector<int>& queries, int x) {
-        vector<int> ans;
+        vector<int> ans(queries.size());
         unordered_map<int,int> map;
         int count =0;
         for(int i = 0 ; i < nums.size() ; i++){
@@ -12,10 +12,10 @@ public:
         }
         for(int i = 0 ; i < queries.size() ; i++){
             if(queries[i] > count){
-                ans.push_back(-1);
+                ans[i] = -1;
             }
             else{
-                ans.push_back(map[queries[i]]);
+                ans[i] = map[queries[i]];
             }
         }
         return ans;
