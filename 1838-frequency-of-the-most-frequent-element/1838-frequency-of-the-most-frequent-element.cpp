@@ -13,7 +13,7 @@ public:
         // required ops to make nums[start..end] all equal to nums[end]
         while ((long long)(end - start + 1) * nums[end] - actual_sum > k) {
             if((end-start+1)==max_freq){
-                continue;
+                break;
             }
             actual_sum -= nums[start++];
         }
