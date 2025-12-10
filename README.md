@@ -5,10 +5,12 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0001-two-sum) |
+| [3159-find-occurrences-of-an-element-in-an-array](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0001-two-sum) |
+| [3159-find-occurrences-of-an-element-in-an-array](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
 ## Math
 |  |
 | ------- |
