@@ -9,7 +9,7 @@ public:
             if (nums[i]==x)
                 hashmap[index++] = i;
         }
-        hashmap.resize(index);
+        //hashmap.resize(index);
         for(auto i : hashmap){
             cout<<i<<" ";
         }
