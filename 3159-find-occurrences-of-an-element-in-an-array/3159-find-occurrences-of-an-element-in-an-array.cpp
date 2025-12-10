@@ -1,24 +1,21 @@
 class Solution {
 public:
     vector<int> occurrencesOfElement(vector<int>& nums, vector<int>& queries, int x) {
-        vector<int> hashmap(nums.size());
-        vector<int> ans(queries.size()); 
-        int index = 0;
-        int n = nums.size();
-        for (int i=0; i<n; ++i){
-            if (nums[i]==x)
-                hashmap[index++] = i;
-        }
-        hashmap.resize(index);
-        for(auto i : hashmap){
-            cout<<i<<" ";
-        }
-        for(int i  = 0 ; i < queries.size() ; i++){
-            if(queries[i]>index){
-                ans[i] = -1;
+        vector<int> ans;
+        unordered_map<int,int> map;
+        int count =0;
+        for(int i = 0 ; i < nums.size() ; i++){
+            if(nums[i]==x){
+                count++;
+                map[count] = i;
             }
-            else {
-                ans[i] = hashmap[queries[i]-1];
+        }
+        for(int i = 0 ; i < queries.size() ; i++){
+            if(queries[i] > count){
+                ans.push_back(-1);
+            }
+            else{
+                ans.push_back(map[queries[i]]);
             }
         }
         return ans;
