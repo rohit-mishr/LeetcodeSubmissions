@@ -1,23 +1,19 @@
 class Solution {
 public:
     vector<int> occurrencesOfElement(vector<int>& nums, vector<int>& queries, int x) {
-        vector<int> ans(queries.size());
-        unordered_map<int,int> map;
-        int count =0;
-        for(int i = 0 ; i < nums.size() ; i++){
-            if(nums[i]==x){
-                count++;
-                map[count] = i;
-            }
+        auto inPlaceWriter = nums.begin();
+        int n = nums.size();
+        for (int i=0; i<n; ++i){
+            if (nums[i]==x)
+                *inPlaceWriter++ = i;
         }
-        for(int i = 0 ; i < queries.size() ; i++){
-            if(queries[i] > count){
-                ans[i] = -1;
-            }
-            else{
-                ans[i] = map[queries[i]];
-            }
+        nums.resize(inPlaceWriter-nums.begin());
+        for (auto &q:queries){
+            if (q>nums.size())
+                q = -1;
+            else
+                q = nums[q-1];
         }
-        return ans;
+        return queries;
     }
 };
