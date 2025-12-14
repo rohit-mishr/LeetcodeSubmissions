@@ -12,7 +12,6 @@ public:
         if(slow == -1){
             return;
         }
-        cout<<slow;
         for(int fast = slow+1 ; fast < n ; fast++){
             if(nums[fast]!=0){
                 
