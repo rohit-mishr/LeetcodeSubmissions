@@ -14,7 +14,6 @@ public:
         }
         for(int fast = slow+1 ; fast < n ; fast++){
             if(nums[fast]!=0){
-                
                 nums[slow] = nums[fast];
                 nums[fast] = 0;
                 slow++;
