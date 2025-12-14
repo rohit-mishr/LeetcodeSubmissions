@@ -9,11 +9,10 @@ public:
                 count++;
             }
             else if(nums[i]==0){
-                max_count = max(max_count,count);
                 count = 0;
             }
+            max_count = max(max_count,count);
         }
-        max_count = max(max_count,count);
         return max_count;
     }
 };
