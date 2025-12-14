@@ -9,9 +9,6 @@ public:
         for(int end = 0 ; end < n ; end++){
             actual_sum += nums[end];
             if((long long)(end - start + 1 )*nums[end] > (actual_sum + k)){
-                if((end-start+1) == max_freq){
-                    continue;
-                }
                 actual_sum-=nums[start++];
             }
             max_freq = max(max_freq,(end-start+1));
