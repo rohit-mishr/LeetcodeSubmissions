@@ -10,7 +10,7 @@ public:
             if(sum==k){
                 cnt++;
             }
-            cnt+=map[sum-k];
+            if(map.count(sum-k)) cnt+= map[sum-k];
             map[sum]++;
             
         }
