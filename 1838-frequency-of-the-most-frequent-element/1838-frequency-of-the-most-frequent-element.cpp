@@ -11,6 +11,7 @@ public:
             if((long long)(end - start + 1 )*nums[end] > (actual_sum + k)){
                 actual_sum-=nums[start++];
             }
+            else
             max_freq = max(max_freq,(end-start+1));
         }
         return max_freq;
