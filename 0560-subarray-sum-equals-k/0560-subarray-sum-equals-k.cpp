@@ -10,9 +10,7 @@ public:
             if(sum==k){
                 cnt++;
             }
-            if(map.find(sum-k)!=map.end()){
-                cnt+=map[sum-k];
-            }
+            cnt+=map[sum-k];
             map[sum]++;
             
         }
