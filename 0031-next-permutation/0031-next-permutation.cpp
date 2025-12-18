@@ -10,7 +10,7 @@ public:
             }
         }
         if(bp==-1){
-            sort(nums.begin(),nums.end());
+            reverse(nums.begin(),nums.end());
             return;
         }
         for(int i = n-1 ; i > bp ; i--){
@@ -19,6 +19,6 @@ public:
                 break;
             }
         }
-        sort(nums.begin()+bp+1, nums.end());
+        reverse(nums.begin()+bp+1, nums.end());
     }
 };
