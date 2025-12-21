@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0048-rotate-image) |
@@ -47,6 +48,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0125-valid-palindrome) |
@@ -88,6 +90,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0015-3sum) |
 | [0229-majority-element-ii](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0268-missing-number) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1838-frequency-of-the-most-frequent-element) |
