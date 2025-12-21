@@ -7,8 +7,7 @@ public:
         if(r==1){
             return ans;
         }
-        ans.push_back({1,1});
-        for(int i = 2 ; i < r ; i++){
+        for(int i = 1 ; i < r ; i++){
             vector<int> row;
             row.reserve(i+1);
             row.push_back(1);
