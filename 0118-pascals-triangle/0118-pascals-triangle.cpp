@@ -4,9 +4,6 @@ public:
         vector<vector<int>> ans;
         ans.reserve(r);
         ans.push_back({1});
-        if(r==1){
-            return ans;
-        }
         for(int i = 1 ; i < r ; i++){
             vector<int> row;
             row.reserve(i+1);
