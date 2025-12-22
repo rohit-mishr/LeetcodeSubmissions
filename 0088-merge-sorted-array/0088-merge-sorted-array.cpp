@@ -15,11 +15,6 @@ public:
             nums1[j] = 0;
             j--,i--;
         }
-        for(auto it : nums1){
-            cout<<it<<" ";
-        }
-        cout<<endl;
-
         i = n;
         j = 0;
         int index = 0;
