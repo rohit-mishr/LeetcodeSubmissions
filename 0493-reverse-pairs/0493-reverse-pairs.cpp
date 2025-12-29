@@ -6,9 +6,9 @@ public:
         }
         int cnt = 0;
         int mid = (high + low)/2;
+        int j = mid+1;
         cnt = merge_and_count(nums , low , mid) + merge_and_count(nums , mid +1 , high);
         for(int i = low ; i <= mid ; i++){
-            int j = mid+1;
             while( j <= high && nums[i]>2LL*nums[j]){
                 j++;
             }
