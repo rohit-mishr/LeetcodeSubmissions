@@ -16,21 +16,21 @@ public:
         }
         int i1 = low;
         int i2 = mid+1;
-        vector<int> temp;
-        temp.reserve(high-low+1);
+        int temp[high-low+1];
+        int index = 0;
         while(i1<=mid && i2 <= high){
             if(nums[i1]<=nums[i2]){
-                temp.push_back(nums[i1++]);
+                temp[index++] = nums[i1++];
             }
             else{
-                temp.push_back(nums[i2++]);
+                temp[index++] = nums[i2++];
             }
         }
         while(i1<=mid){
-            temp.push_back(nums[i1++]);
+            temp[index++] = nums[i1++];
         }
         while(i2<=high){
-            temp.push_back(nums[i2++]);
+            temp[index++] = nums[i2++];
         }
         for(int i = 0 ; i < high-low+1 ; i++){
             nums[low+i] = temp[i];
