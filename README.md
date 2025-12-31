@@ -9,6 +9,7 @@
 | [0018-4sum](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0031-next-permutation) |
+| [0035-search-insert-position](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0035-search-insert-position) |
 | [0048-rotate-image](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0054-spiral-matrix) |
@@ -89,6 +90,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0035-search-insert-position) |
 | [0268-missing-number](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0268-missing-number) |
 | [0493-reverse-pairs](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0493-reverse-pairs) |
 | [0704-binary-search](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0704-binary-search) |
