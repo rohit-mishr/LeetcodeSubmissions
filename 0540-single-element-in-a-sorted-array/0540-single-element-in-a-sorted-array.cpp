@@ -19,7 +19,7 @@ public:
             }
             else if(!(mid&1)){
                 if(nums[mid]!=nums[mid+1]){
-                    high = mid - 1;
+                    high = mid - 2;
                 }
                 else{
                     low = mid + 1;
