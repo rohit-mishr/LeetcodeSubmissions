@@ -10,19 +10,16 @@ public:
         while(low<=high){
             int mid = low + (high-low)/2;
             int capacity = 0;
-            int d = 0;
+            int d = 1;
             for(int i : weights){
-                capacity+=i;
-                if(capacity == mid){
-                    d++;
-                    capacity = 0;
-                }
-                else if (capacity > mid){
+                if(capacity + i > mid){
                     d++;
                     capacity = i;
                 }
+                else{
+                    capacity += i;
+                }
             }
-            if(capacity!=0) d++;
             if(d<=days){
                 ans = mid;
                 high = mid -1;
