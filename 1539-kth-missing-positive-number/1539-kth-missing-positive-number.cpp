@@ -8,18 +8,13 @@ public:
         while(low<=high){
            
             int mid = low + (high - low)/2;
-             cout<<mid<<" ";
             if((arr[mid]-mid-1)<k){
                 low = mid + 1;
             }
             else{
-                ans = mid + k;
                 high = mid - 1;
             }
         }
-        if(ans == 0){
-            ans = k + n;   
-        }
-        return ans;
+        return high + k +1;
     }
 };
