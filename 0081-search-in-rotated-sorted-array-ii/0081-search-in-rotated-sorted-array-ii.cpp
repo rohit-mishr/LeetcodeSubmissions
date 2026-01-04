@@ -7,7 +7,6 @@ public:
         bool ans = false;
         while(low<=high){
             int mid = low + (high-low)/2;
-            cout<<mid<<" ";
             if(nums[mid]==target){
                 ans = true;
                 break;
