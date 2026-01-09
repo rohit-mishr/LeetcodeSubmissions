@@ -3,13 +3,13 @@ public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
         int r = matrix.size();
         int c = matrix[0].size();
-        long long low = 0;
-        long long high = r*c - 1;
+        int low = 0;
+        int high = r*c - 1;
         bool ans = false;
         while(low<=high){
-            long long mid = low + (high-low)/2;
-            long long i = mid/c;
-            long long j = mid%c;
+            int mid = low + (high-low)/2;
+            int i = mid/c;
+            int j = mid%c;
             if(matrix[i][j]==target){
                 ans = true;
                 break;
