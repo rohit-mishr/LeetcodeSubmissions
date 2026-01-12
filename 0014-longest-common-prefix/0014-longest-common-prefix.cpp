@@ -10,7 +10,7 @@ public:
         }
         for(int i = 0 ; i < m ; i++){
             char c = strs[0][i];
-            for(auto s : strs){
+            for(const string& s : strs){
                 if(s[i]!=c){
                     return ans;
                 }
