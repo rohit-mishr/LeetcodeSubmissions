@@ -1,41 +1,31 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        string result = "";
-        
-        // Pointer starting from the last character
-        int i = s.size() - 1;
-        
-        // Traverse string from right to left
-        while (i >= 0) {
-            // Skip spaces at the current position
-            while (i >= 0 && s[i] == ' ') {
-                i--;
+        int n = s.size();
+        vector<string> l;
+        string ans = "";
+        string word = "";
+        for(char i : s){
+            if(i!=' '){
+                word+=i;
             }
-            
-            // If pointer is out of bounds, break
-            if (i < 0) break;
-            
-            // Mark the end of the current word
-            int end = i;
-            
-            // Move left until a space or start of string is found
-            while (i >= 0 && s[i] != ' ') {
-                i--;
+            else{
+                if(!word.empty()){
+                    l.push_back(word);
+                    word = "";
+                }
             }
-            
-            // Extract the current word
-            string word = s.substr(i + 1, end - i);
-            
-            // Add space before appending next word if result is not empty
-            if (!result.empty()) {
-                result += " ";
-            }
-            
-            // Append the word to the result
-            result += word;
         }
-        
-        return result;
+        if(!word.empty()){
+            l.push_back(word);
+        }
+        reverse(l.begin(),l.end());
+        for(auto i : l){
+            if(!ans.empty()){
+                ans+=" ";
+            }
+            ans+=i;
+        }
+        return ans;
     }
 };
