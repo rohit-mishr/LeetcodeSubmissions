@@ -9,10 +9,10 @@ public:
             if(s[start]==' '){
               if(start<end){
                 if(!ans.empty()){
-                    ans = ans + " " + s.substr(start+1,(end-start));
+                    ans +=" " + s.substr(start+1,(end-start));
                 }
                 else{
-                    ans = ans + s.substr(start+1,(end-start));
+                    ans += s.substr(start+1,(end-start));
                 }
               }
               end = start - 1;
@@ -21,10 +21,10 @@ public:
         if(start<end){
             string temp = s.substr(start+1,(end-start));
             if(!ans.empty()){
-                ans = ans + " " + s.substr(start+1,(end-start));
+                ans += " " + s.substr(start+1,(end-start));
             }
             else{
-                ans = ans + s.substr(start+1,(end-start));
+                ans += s.substr(start+1,(end-start));
             }
         }
         return ans;
