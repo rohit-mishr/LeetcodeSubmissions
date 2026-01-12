@@ -71,6 +71,7 @@
 | [0189-rotate-array](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0509-fibonacci-number) |
+| [1903-largest-odd-number-in-string](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1903-largest-odd-number-in-string) |
 | [2965-find-missing-and-repeated-values](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/2965-find-missing-and-repeated-values) |
 ## Two Pointers
 |  |
@@ -91,6 +92,7 @@
 | [0125-valid-palindrome](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0151-reverse-words-in-a-string) |
 | [1021-remove-outermost-parentheses](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1021-remove-outermost-parentheses) |
+| [1903-largest-odd-number-in-string](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1903-largest-odd-number-in-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -138,6 +140,7 @@
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0410-split-array-largest-sum) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [1903-largest-odd-number-in-string](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1903-largest-odd-number-in-string) |
 ## Sliding Window
 |  |
 | ------- |
