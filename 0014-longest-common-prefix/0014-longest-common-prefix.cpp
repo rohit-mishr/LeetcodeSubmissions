@@ -4,7 +4,7 @@ public:
         int n = strs.size();
         int m = INT_MAX;
         string ans = "";
-        for(auto i : strs){
+        for(const string& i : strs){
             int size = i.size();
             m = min(m,size);
         }
