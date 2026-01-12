@@ -88,6 +88,7 @@
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0125-valid-palindrome) |
+| [1021-remove-outermost-parentheses](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1021-remove-outermost-parentheses) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -206,4 +207,8 @@
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0493-reverse-pairs) |
+## Stack
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1021-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
