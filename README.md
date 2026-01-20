@@ -60,6 +60,7 @@
 | [0229-majority-element-ii](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0268-missing-number) |
+| [0451-sort-characters-by-frequency](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0560-subarray-sum-equals-k) |
 | [2965-find-missing-and-repeated-values](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/2965-find-missing-and-repeated-values) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
@@ -95,6 +96,7 @@
 | [0125-valid-palindrome](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0242-valid-anagram) |
+| [0451-sort-characters-by-frequency](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0451-sort-characters-by-frequency) |
 | [0796-rotate-string](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1021-remove-outermost-parentheses) |
 | [1903-largest-odd-number-in-string](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1903-largest-odd-number-in-string) |
@@ -160,6 +162,7 @@
 | [0229-majority-element-ii](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0268-missing-number) |
+| [0451-sort-characters-by-frequency](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0451-sort-characters-by-frequency) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Prefix Sum
 |  |
@@ -202,6 +205,7 @@
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0229-majority-element-ii) |
+| [0451-sort-characters-by-frequency](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0451-sort-characters-by-frequency) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -230,4 +234,12 @@
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0796-rotate-string) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0451-sort-characters-by-frequency) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
