@@ -12,7 +12,7 @@ public:
         sort(freq,freq + 256,[](pair<int,char> f , pair<int,char> sec){
             if(f.first>sec.first) return true;
             if(f.first<sec.first) return false;
-            return f.second > sec.second;
+            return f.second >= sec.second;
         });
         for(auto i : freq){
             if(i.first!=0){
