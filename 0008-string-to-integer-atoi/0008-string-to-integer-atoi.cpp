@@ -5,9 +5,6 @@ public:
         int n = s.size();
         int i = 0;
         int sign = 1;
-        // if(n==0){
-        //     return 0;
-        // }
         while(i<n && s[i]==' '){
             i++;
         }
@@ -31,7 +28,6 @@ public:
             ans = ans*10 + (s[i]-'0'); 
             i++;
         }
-        //cout<<sign<<" "<<ans;
         return ans*sign;
     }
 };
