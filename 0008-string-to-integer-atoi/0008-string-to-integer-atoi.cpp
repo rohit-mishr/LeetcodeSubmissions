@@ -16,13 +16,13 @@ public:
             i++;
         }
         while(i<n && isdigit(s[i])){
-            if(ans*sign < INT_MIN/10 || (sign*ans == INT_MIN/10 && s[i] > '8')){
+            ans = ans*10 + (s[i]-'0'); 
+            if(ans*sign < INT_MIN){
                 return INT_MIN;
             }
-            else if(ans*sign > INT_MAX/10 || (ans*sign == INT_MAX/10 && s[i] > '7')){
+            else if(ans*sign > INT_MAX){
                 return INT_MAX;
-            }
-            ans = ans*10 + (s[i]-'0'); 
+            } 
             i++;
         }
         return ans*sign;
