@@ -15,9 +15,6 @@ public:
         else if(i < n && s[i]=='+'){
             i++;
         }
-        while(i<n && s[i]=='0'){
-                i++;
-        }
         while(i<n && isdigit(s[i])){
             if(ans*sign < INT_MIN/10 || (sign*ans == INT_MIN/10 && s[i] > '8')){
                 return INT_MIN;
