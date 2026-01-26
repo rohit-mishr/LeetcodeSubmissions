@@ -65,6 +65,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/0560-subarray-sum-equals-k) |
 | [2965-find-missing-and-repeated-values](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/2965-find-missing-and-repeated-values) |
 | [3159-find-occurrences-of-an-element-in-an-array](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/3159-find-occurrences-of-an-element-in-an-array) |
+| [3325-count-substrings-with-k-frequency-characters-i](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/3325-count-substrings-with-k-frequency-characters-i) |
 ## Math
 |  |
 | ------- |
@@ -105,6 +106,7 @@
 | [1021-remove-outermost-parentheses](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1903-largest-odd-number-in-string](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1903-largest-odd-number-in-string) |
+| [3325-count-substrings-with-k-frequency-characters-i](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/3325-count-substrings-with-k-frequency-characters-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -157,6 +159,7 @@
 |  |
 | ------- |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/1838-frequency-of-the-most-frequent-element) |
+| [3325-count-substrings-with-k-frequency-characters-i](https://github.com/rohit-mishr/LeetcodeSubmissions/tree/master/3325-count-substrings-with-k-frequency-characters-i) |
 ## Sorting
 |  |
 | ------- |
