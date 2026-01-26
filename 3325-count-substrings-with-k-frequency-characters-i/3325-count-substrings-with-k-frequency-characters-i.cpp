@@ -5,18 +5,22 @@ public:
         int left = 0;
         int right = 0;
         int ans = 0;
-        int count = 0;
-        int arr[26] = {0};
+        //int arr[26] = {0};
         unordered_map<char,int> m;
         while(right < n){
             m[s[right]]++;
             while(m[s[right]]>=k){
                 m[s[left]]--;
                 if(m[s[left]]==0){
-                    m.erase(s[left]);
+                    //m.erase(s[left]);
                 }
                 left++;
             }
+            // arr[s[right]-'a']++;
+            // while(arr[s[right]-'a']>=k){
+            //     arr[s[left]-'a']--;
+
+            // }
             ans+=(right-left+1);
             right++;
         }
