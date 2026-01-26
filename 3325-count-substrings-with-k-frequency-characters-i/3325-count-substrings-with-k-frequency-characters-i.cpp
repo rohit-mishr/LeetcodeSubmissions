@@ -5,6 +5,8 @@ public:
         int left = 0;
         int right = 0;
         int ans = 0;
+        int count = 0;
+        int arr[26] = {0};
         unordered_map<char,int> m;
         while(right < n){
             m[s[right]]++;
