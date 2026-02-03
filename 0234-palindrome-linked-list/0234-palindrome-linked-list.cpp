@@ -10,22 +10,36 @@
  */
 class Solution {
 public:
-    bool isPalindrome(ListNode* head) {
-        int arr[100000];
-        int index = 0;
+    ListNode* reverse(ListNode* head){
         ListNode* curr = head;
+        ListNode* prev = NULL;
+        ListNode* next;
         while(curr!=NULL){
-            arr[index++] = curr->val;
-            curr = curr->next;
+            next = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = next;
         }
-        int start = 0;
-        int end = index-1;
-        while(start<end){
-            if(arr[start]!=arr[end]){
+        return prev;
+    }
+    bool isPalindrome(ListNode* head) {
+        ListNode* fast = head;
+        ListNode* slow = head;
+        while(fast!=NULL && fast->next !=NULL){
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        if(fast!=NULL){
+            slow=slow->next;
+        }
+        ListNode* head2 = reverse(slow);
+        // comparison
+        while(head!=NULL && head2!=NULL){
+            if(head->val!=head2->val){
                 return false;
             }
-            start++;
-            end--;
+            head = head->next;
+            head2 = head2->next;
         }
         return true;
     }
